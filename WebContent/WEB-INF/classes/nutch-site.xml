@@ -6,7 +6,7 @@
 <configuration>
     <property> 　　
 　　    <name>searcher.dir</name> 　　
-　　    <value>/www/crawl</value> 　　
+　　    <value>/home/www/crawl</value> 　　
     </property>
 		<property>
   		<name>searcher.summary.length</name>

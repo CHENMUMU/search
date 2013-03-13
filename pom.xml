@@ -7,6 +7,11 @@
 	<packaging>war</packaging>
 	<name>search</name>
 	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+		<java.home>D:\Java\jdk1.6.0_35\lib</java.home>
+	</properties>
 	<profiles>
 		<profile>
 			<id>default-tool.jar</id>
@@ -84,4 +89,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.tuckey</groupId>
+			<artifactId>urlrewritefilter</artifactId>
+			<version>4.0.4</version>
+		</dependency>
+	</dependencies>
 </project>
